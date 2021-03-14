@@ -10,7 +10,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone #
+1. Use this command to clone `$ git clone https://github.com/MAKONJIO99/IP_Dairy-Bussiness.git
 1. This will clone the repositoty into your local folder
 
 ### Technologies Used
@@ -19,6 +19,6 @@ To access this project on your local files, you can clone it using these steps
 1. JS
 1. Git
 ### Live Site
-View [live]()
+View [live](https://makonjio99.github.io/IP_Dairy-Bussiness/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
