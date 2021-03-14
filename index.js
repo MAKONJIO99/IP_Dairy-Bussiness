@@ -46,11 +46,12 @@ function incomeOverTime(selling_price, time, verbose){
 dailyIncome = totalProduction() * selling_price;
 return dailyIncome * time;
 }
-alert(" ");
+if (verbose===true){
+confirm("PRESS OK TO SEE YOUR INCOME");
 alert("Your weekly income will be Ksh " + incomeOverTime(45,7));
 alert("Your yearly income will be Ksh " + incomeOverTime(45,365));
-
-        alert( " ");
+}
+        
 
 for (var key in months){
         monthly_income = incomeOverTime(45, months[key]);
